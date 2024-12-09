@@ -1,0 +1,173 @@
+#aboutpage{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#image{
+    background-color: rgb(245, 228, 231);
+    border-radius: 50%;
+}
+
+#image img{
+    padding-top: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+#content{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+#content h2{
+    font-size: 45px;
+}
+#content h4{
+    color: rgb(189, 189, 189);
+}
+
+#content h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    color: white;
+    height: 40px;
+    background-color:rgb(62, 170, 212);
+}
+
+
+#problem{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+    align-items: center;
+    gap: 50px;
+}
+
+#problem h2{
+    color: red;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+#problem h3{
+    font-size: 25px;
+}
+#problem h4{
+    font-size: 18px;
+    color: rgb(180, 179, 179);
+}
+
+#trendingContenor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin: 50px;
+    text-align: center;
+}
+
+.treding{
+    font-size: 45px;
+}
+.category{
+    font-size: 20px;
+        color: rgb(143, 140, 140);
+
+}
+
+/* videco css section */
+#video img{
+    width: 100%; /* Full width */
+    padding: 0;
+    margin: 0;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%);
+
+
+}
+
+
+#team{
+    /* height: 550px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+#team h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+}
+
+/*  */
+
+#compare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+/* banner */
+
+#lastBanner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+}
+
+#bannerContent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 450px;
+    padding: 20px 0px 20px 90px;
+    gap: 30px;
+    background-color: rgb(16, 85, 131);
+    color: white;
+}
+
+#bannerContent h3{
+    font-size: 38px;
+}
+
+#bannerContent button{
+    width: 130px;
+    height: 40px;
+    border: solid white;
+        background-color: rgb(16, 85, 131);
+border-radius: 5px;
+    color: white;
+    border-width: 1px;
+}
+
+#lastBanner img{
+    width: 100%;
+    height: 450px;
+}

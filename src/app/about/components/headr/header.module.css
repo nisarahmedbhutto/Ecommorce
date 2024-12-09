@@ -1,0 +1,62 @@
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    gap: 130px;
+}
+#header h3{
+    font-weight: 70px;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+
+}
+
+#pages ol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-right: 250px;
+}
+
+#pages li{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(124, 122, 122);
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#search{
+    display: flex;
+    gap: 10px;
+}
+
+#log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+#log h2{
+    font-size: 16px;
+    color: #23A6F0;
+}
+#log h3{
+display: flex;
+    justify-content: center;
+    align-items: center;    font-size: 13px;
+    background-color: #23A6F0;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 10px
+;
+}

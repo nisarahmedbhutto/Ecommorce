@@ -1,0 +1,12 @@
+
+#clothCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#cloth img{
+    width: 170px;
+    height: 200px;
+}

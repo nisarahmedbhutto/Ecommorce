@@ -1,0 +1,36 @@
+#trial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+#trial h2{
+    font-size: 35px;
+    
+}
+#trial h5{
+    font-size: 13px;
+    color: rgb(128, 125, 125);
+    text-align: center;
+    line-height: 20px;
+}
+
+#trial button{
+    width: 120px;
+    height: 40px;
+    background-color: #23A6F0;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

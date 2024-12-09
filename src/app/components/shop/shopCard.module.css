@@ -1,0 +1,72 @@
+
+
+#cardContenor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 1,652px;
+    left: 195px;
+    padding: 80px 0px 80px 0px;
+    gap: 80px;
+
+
+}
+
+#card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#card img{
+    width: 240px;
+height: 290px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+#color{
+    display: flex;
+    gap: 15px;
+
+
+}
+
+.colorsItem{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+
+#priceSet{
+    display: flex;
+    gap: 15px;
+}
+#oldprice{
+   color: #BDBDBD;
+}
+#newprice{
+    color: #23856D;
+}
+
+#one{
+    background: #23A6F0;
+
+}
+#two{
+background: #23856D;
+
+}
+#three{
+background: #E77C40;
+
+}
+#four{
+background: #252B42;
+
+}

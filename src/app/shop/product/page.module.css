@@ -1,0 +1,178 @@
+
+/* Product Page */
+#productPage {
+    background-color: rgb(241, 241, 241);
+    display: grid;
+    grid-template-rows: auto;
+    width: 100%; /* Full width */
+    max-width: 100vw; /* Ensure no overflow */
+    height: auto;
+    max-height: 10px;
+}
+
+/* Product Item Section */
+#productItem {
+    display: grid;
+    justify-content: space-between;
+    align-items: flex-start;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive layout */
+    gap: 20px;
+    width: 100%;
+    padding: 20px; /* Add padding for spacing */
+}
+
+#img img {
+    width: 100%; /* Full width */
+    height: 400px; /* Maintain aspect ratio */
+}
+
+#innerImage img {
+    margin-top: 20px;
+    width: 100%; /* Adjust for full container width */
+    max-width: 100px; /* Keep thumbnail size consistent */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%; /* Ensure it takes full width */
+}
+
+/* Reviews and Pricing */
+#reviews {
+    font-size: 25px;
+    color: #bdbdbd;
+    padding-left: 10px;
+}
+
+#oldprice {
+    color: #bdbdbd;
+}
+
+#newprice {
+    color: #23856d;
+}
+
+/* Color Options */
+#color {
+    display: flex;
+    gap: 20px;
+}
+
+.colorsItem {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+#one {
+    background: #23a6f0;
+}
+
+#two {
+    background: #23856d;
+}
+
+#three {
+    background: #e77c40;
+}
+
+#four {
+    background: #252b42;
+}
+
+/* Select Options */
+#select {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#selectOption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: #23a6f0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Unplush Section */
+#unplush {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 50px;
+    width: 100%;
+}
+
+#unplushHeading {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+#unplushContent {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive layout */
+    width: 100%;
+}
+
+#unplushContent img {
+    width: 100%; /* Full width */
+    max-width: 250px; /* Maintain image consistency */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Jumps Section */
+#jumps {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Divider */
+#line {
+    margin: 40px 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(202, 202, 202);
+}
+
+/* Seller Section */
+#seler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+}
+
+#seler h1 {
+    text-align: center;
+}
+
+#seler #line {
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+}
+
+
+

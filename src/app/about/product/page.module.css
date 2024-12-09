@@ -1,0 +1,44 @@
+#productPage{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 100px 0px;
+
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#head h2{
+    font-size: 45px;
+}
+
+#unplush{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#unplush img{
+    width: 700px;
+    height: 500px;
+}
+
+#teamMeet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#teamMeet h2{
+    font-size: 35px;
+}
